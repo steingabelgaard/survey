@@ -5,7 +5,7 @@
 {
     'name': "Partner Survey",
     'category': 'Marketing',
-    'version': '10.0.1.0.0',
+    'version': '11.0.1.0.0',
     'depends': [
         'survey',
     ],
@@ -15,7 +15,7 @@
     'author': 'Tecnativa, '
               'Camptocamp, '
               'Odoo Community Association (OCA)',
-    'website': 'http://www.tecnativa.com',
+    'website': 'https://github.com/OCA/survey',
     'license': 'AGPL-3',
     'installable': True,
 }

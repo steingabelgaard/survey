@@ -18,5 +18,5 @@ class ResPartner(models.Model):
 
     @api.depends('survey_inputs')
     def _compute_survey_input_count(self):
-        for survey in self:
-            survey.survey_input_count = len(survey.survey_inputs)
+        for partner in self:
+            partner.survey_input_count = len(partner.survey_inputs)
