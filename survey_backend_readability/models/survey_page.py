@@ -12,8 +12,9 @@ class SurveyPageReadability(models.Model):
     # ------------------------------------------------------
     @api.multi
     def action_page_questions(self):
-        tree_view = self.env.ref('survey_backend_readability.\
-                                 survey_question_backend_readability_tree').id
+        tree_view = self.env.ref(
+            'survey_backend_readability.survey_question_backend_readability_tree'
+        ).id
         return {
             'type': 'ir.actions.act_window',
             'name': 'Questions: ' + self.title,
